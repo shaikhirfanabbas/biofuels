@@ -24,7 +24,7 @@ public class BiofuelsLoginPageFactory {
 	
 	@Given("browser is open")
 	public void browser_is_open() {
-		System.out.println("Inside step-user is on login page");
+//		System.out.println("Inside step-user is on login page");
 		
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
